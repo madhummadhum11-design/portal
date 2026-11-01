@@ -1,0 +1,13 @@
+{
+  "name": "skillbridge-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SkillBridge — AI-Powered Academia-Industry Collaboration Platform",
+  "scripts": {
+    "dev:frontend": "npm run dev --prefix frontend",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev": "npm run dev:frontend",
+    "build": "npm run build --prefix frontend",
+    "start": "npm run start --prefix backend"
+  }
+}
